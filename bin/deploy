@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+REALDIR="/home/cjpoll/.config/Screeps/scripts/127_0_0_1___21025/default"
+
+rm -rf ${REALDIR}/*
+cp -a lib/* "${REALDIR}/"
